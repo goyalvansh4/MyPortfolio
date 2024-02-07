@@ -19,7 +19,7 @@ export default function Footer() {
               <ul className="text-gray-500 font-medium">
                 <li>
                   <NavLink
-                    to="/Portfolio/"
+                    to="Portfolio"
                     className={({ isActive }) =>
                       `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 hover:bg-gray-50
                                       ${
@@ -35,7 +35,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <NavLink
-                    to="/Portfolio/about"
+                    to="/about"
                     className={({ isActive }) =>
                       `block py-4 mt-5 pr-4 pl-3 duration-200 border-b border-gray-100 hover:bg-gray-50
                                       ${
